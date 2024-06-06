@@ -19,6 +19,9 @@ const Index = () => {
                 <Link to="/about">About</Link>
               </Box>
               <Box mx={2}>
+                <Link to="/banana">Banana</Link>
+              </Box>
+              <Box mx={2}>
                 {session ? (
                   <Button onClick={logout} colorScheme="red">Logout</Button>
                 ) : (
